@@ -6,7 +6,7 @@ $(function() {
     });
 
     $('.send-btn').on('click', function (e) {
-        sendMessage($(this));
+        sendMessage($('.type-msg'));
     });
 
     // add the users message to the chat interface and send the message
